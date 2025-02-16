@@ -11,7 +11,7 @@ attack_history = []  # Store attack logs
 
 TELEGRAM_BOT_TOKEN = '7455722221:AAENx_e0oOsj2qHeCdt8dZkyyK44iW8Qd2M'
 ADMIN_USER_ID = 1216702307
-MONGO_URI = "mongodb+srv://Kamisama:Kamisama@kamisama.m6kon.mongodb.net/"
+MONGO_URI = "mongodb+srv://donmourya248:Santosh700@redhat.drq43.mongodb.net/RedHat?retryWrites=true&w=majority&appName=RedHat"
 DB_NAME = "neerajr"
 COLLECTION_NAME = "users"
 ATTACK_TIME_LIMIT = 240  # Maximum attack duration in seconds
