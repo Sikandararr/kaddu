@@ -8,7 +8,7 @@
 #include <time.h>
 
 #define PACKET_SIZE 1024  // Size of UDP packet
-#define NUM_THREADS 69     // Default number of threads
+#define NUM_THREADS 1000    // Default number of threads
 volatile sig_atomic_t running = 1;
 
 // Structure to hold thread arguments
