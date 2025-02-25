@@ -4,5 +4,5 @@
     "initial_packets": "200",
     "initial_binary": "bgmi",
     "max_attack_time": 600,
-    "attack_cooldown": 300
+    "attack_cooldown": 3
 }
