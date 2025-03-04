@@ -1,10 +1,8 @@
-
-# ===========================================================
-#        @NINJAGAMEROP BOT SCRIPT
-# ===========================================================
-
-# --------------------[ IMPORTS ]----------------------------
-
+#SCRIPT BY 
+#@NINJAGAMEROP
+#@Legacy4real0
+#@God_x_Sikandar
+#@Mr_sid_001
 import os
 import time
 import json
@@ -24,10 +22,10 @@ from typing import Optional
 
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7455722221:AAEy6bd4crt2lEdKEjzCxoSM4Zdhq_eh_nE')
+bot = telebot.TeleBot('BOT_TOKEN')
 
 # Insert your admin id here
-admin_id = ["1216702307"]
+admin_id = ["ADMIN_ID"]
 
 # Files for data storage
 USER_FILE = "users.json"
